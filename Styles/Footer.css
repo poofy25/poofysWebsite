@@ -1,0 +1,34 @@
+.Footer{
+    display: flex;
+    position: sticky;
+    border-top: 1px solid white;
+    width: 100%;
+    height: 100px;
+    top: 100%;
+    margin-top: 20vh;
+    justify-content: center;
+    z-index: 10;
+}
+.roundButton{
+    position: relative;
+    top: 20px;
+    
+    height: 60px;
+    width: 60px;
+   text-align: center;
+    border-radius: 100%;
+    justify-content: center;
+    margin: 2vw;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 0;
+    margin-bottom: 0;
+    object-fit:scale-down;
+}
+.roundButton:hover{
+    transform: scale(1.3);
+}
+.Icon{
+    width: 100%;
+    height: 100%;
+}
