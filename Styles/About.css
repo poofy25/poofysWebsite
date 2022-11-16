@@ -84,7 +84,7 @@ line-height: 0;
     margin-bottom: 2.5vh;
    color: rgba(207, 207, 207,0.5);
    font-family: monospace;
-   font-size: clamp(15px,5vw,30px);
+   font-size: clamp(20px,6.5vw,30px);
     padding-top: 1vw;
     width: 90vw;
     height: auto;
