@@ -1,0 +1,108 @@
+.Header{
+  z-index: 1000;
+  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+
+}
+.left-section{
+    margin-left: 4vw;
+    width: 10%;
+  min-width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   
+}
+.poofyTXT{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    width: 100%;
+    cursor: pointer;
+    
+    color: white;
+}
+
+.middle-section{
+    flex: 1;
+    
+   display: flex;
+    max-width: 200px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.right-section{
+    justify-content: center;
+   
+    width: 80%;
+    max-width: 700px;
+    display: flex;
+
+}
+
+
+.Home-Button:hover{
+    color: rgb(253, 71, 60);
+}
+
+.Gallery-Button:hover{
+    color: rgb(253, 71, 60);
+}
+
+.About-Button:hover{
+    color: rgb(253, 71, 60);
+}
+
+.Contact-Button:hover{
+    color: rgb(253, 71, 60);
+}
+.HeaderButton{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    background-color: transparent;
+    color: white;
+    width: 22.5%;
+    padding: 10px;
+    text-align: center;
+    
+    font-size: clamp(10px,5vw,20px);
+   text-decoration: none;
+   font-weight: bolder;
+}
+.HambugerIMG{
+    width: 100%;
+   
+}
+.HamburgerButton{
+    position: relative;
+    width: 60px;
+    cursor: pointer;
+    display: none;
+    border: none;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4vw;
+}
+
+
+@media screen and (max-width:650px){
+.HeaderButton{
+    display: none;
+}
+.HamburgerButton{
+    display: flex;
+}
+.right-section{
+    justify-content: end;
+}
+}
