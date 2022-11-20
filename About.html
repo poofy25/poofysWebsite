@@ -29,7 +29,7 @@
         </div>
 
         </div>
-       <!--WEBSITE CONTENT-->
+<!--WEBSITE CONTENT-->
        <div class="WebsiteStuff">
         <div class="About Wall WideWall BigWall"
         style="font-family: monospace;font-size: clamp(18px,2vw,25px);color: rgb(194, 194, 194);margin-bottom: 0;">
@@ -59,21 +59,20 @@
         </div>
         
     </div>
-      <!--EXPLORER-->
+<!--EXPLORER-->
     <div class="explorer">
  <p style="font-size:clamp(30px,7.5vw,50px);margin-top:0;margin-bottom: 0;color: white;">Explorer</p>
- <p class="ExplorerTXT" style="text-decoration: none;"> <a href="#MCJ">My coding jurney</a></p>
+ <p class="ExplorerTXT" style="text-decoration: none;"> <a href="#MCJ">My coding journey</a></p>
  <br>
- <p class="ExplorerTXT" style="margin-top:0 ;text-decoration: none;"> <a href="#Manga">My manga list</a></p>
+ <p class="ExplorerTXT" style="margin-top:0 ;text-decoration: none;"> <a href="#MP">My projects</a></p>
  <br>
- <p class="ExplorerTXT" style="margin-top:0 ;text-decoration: none;"  id="MCJ"> Other stuff about me</p>
+ <p class="ExplorerTXT" style="margin-top:0 ;text-decoration: none;"  id="MCJ"> <a href="#Manga">My manga list</a></p>
     </div>
       
-
-    <!--My coding jurney-->
+<!--My coding jurney-->
 <div class="MCJcontainer">
     <p style="font-size: clamp(40px,6vw,50px) ;margin-top: 0;margin-bottom: 0.5em;">
-        My coding jurney!
+        My coding journey!
     </p>
     <p class="MCJtext">
         I've first started coding in 10th grade, my first language was C++.
@@ -84,12 +83,33 @@
         <br>
         My plan is to learn Front-End development by the end of 2024 and get into the Web Development Industry.
     </p>
-    <p style="color:rgba(204, 204, 204,0.2); margin-top:0.5em;font-size: clamp(12px,4vw,20px);" id="Manga">
+    <p style="color:rgba(204, 204, 204,0.2); margin-top:0.5em;font-size: clamp(12px,4vw,20px);" id="MP">
         *The journey is still ongoing*
     </p>
 </div>
+
+<!--Projects-->
+<div class="Projects">
+    <p>My Projects</p>
+<div class="view-port">
+    <div class="ButtonsContainer">
+        <button id="prev" class="ArrowButton"><img src="/Other/Arrow.png" style="width:100% ; transform: rotate(180deg);"></button>
+        <button id="next" class="ArrowButton"><img src="/Other/Arrow.png" style="width:100% ;"></button>
+        </div>
+  <div class="ProjectsContainer">
+
+<div class="ProjectCard" id="card"><img src="/Other/MyProjects/1stPH.png" style="width:100% ;height: 100%;"></div>
+<div class="ProjectCard" id="card"><img src="/Other/MyProjects/2ndPH.png" style="width:100% ;height: 100%;"></div>
+<div class="ProjectCard" id="card"><img src="/Other/MyProjects/3rdPH.png" style="width:100% ;height: 100%;"></div>
+<div class="ProjectCard" id="card"><img src="/Other/MyProjects/4thPH.png" style="width:100% ;height: 100%;"></div>
+<div class="ProjectCard" id="card"><img src="/Other/MyProjects/5thPH.png" style="width:100% ;height: 100%;"></div>
+
+  </div>
+
+</div>
+</div>
 <!--MANGA LIST-->
-<p class="MangaHeader ">My favourite Mangas!</p>
+<p class="MangaHeader " id="Manga">My favourite Mangas!</p>
 <div class="MangaContainer">
     
 <div class="MangaCard">
@@ -153,5 +173,8 @@ Berserk</a></p>
   </a>
   </div>
 </footer>
+
+
+<script type="text/javascript" src="/JS/AboutScroll.js"></script>
 </body>
 </html>

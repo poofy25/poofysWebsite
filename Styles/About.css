@@ -117,7 +117,7 @@ line-height: 0;
 }
 
 
-/*Coding Jurney Styling*/
+/*Coding Journey Styling*/
 .MCJcontainer{
     color: white;
     margin-bottom: 2.5vh;
@@ -129,8 +129,119 @@ line-height: 0;
 .MCJtext{
     font-size: clamp(15px,5vw,25px);
 }
+/*Projects Styling*/
 
+.Projects p {
+    color:white;
+    font-family: monospace;
+    font-size: clamp(30px,10vw,50px);
+    text-align: center;
+}
+.view-port{
+   overflow: hidden;
+    box-sizing: border-box;
+    background-color: transparent;
+    width: clamp(900px,90vw,1950px);
+    height: clamp(169px,17vw,365px);
+    margin: auto;
+}
+.ProjectsContainer{
+    display: flex;
+  flex-direction: row;
+  width: fit-content;
+    margin: auto;
+    justify-content:center;
+    color: white;
+    
+    font-family: monospace;
+    margin-bottom: 2.5vh;
+   
+}
+.ProjectsContainer > div {
+  padding: 10px;
+    box-sizing:border-box;
+  }
+.ProjectCard{
+    color: white;
+    
+    
+    background-color: transparent;
+    width: clamp(300px,30vw,650px);
+    height: clamp(169px,17vw,365px);
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.25s;
+}
 
+.ButtonsContainer{
+    position: absolute;
+    display: flex;
+    justify-self: center;
+    justify-content:space-between;
+    width: clamp(840px,90vw,1890px);
+    height: clamp(169px,17vw,365px);
+    margin: auto;
+    left: 0;
+    right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+
+}
+
+.ArrowButton{
+    color: white;
+    background-color: transparent;
+   cursor: pointer;
+   width:clamp(65px,6.5vw,145px);
+   height: 100%;
+  
+    z-index: 1;
+    opacity: .1;
+    transition: 0.25s;
+    border: none;
+    background-color: rgba(128, 128, 128,0.5);
+   
+    margin-left: 10px;
+    margin-right:10px;
+}
+.ArrowButton:hover{
+    background-color: rgba(128, 128, 128,0.5);
+    opacity: .8;
+}
+@media screen and (min-width:901px){
+    .ProjectCard > img{
+        transition: 0.25s;
+    cursor: pointer;
+    }
+    
+    .ProjectCard > img:hover{
+        transform: scale(1.115);
+      
+        
+    }
+}
+
+@media screen and (max-width:900px){
+    .view-port{
+      
+        width: clamp(300px,80vw,800px);
+        height: clamp(169px,45vw,365px);
+    }
+    .ProjectCard{
+        width: clamp(300px,80vw,800px);
+        height: clamp(169px,45vw,365px);
+    }
+    .ArrowButton{
+        width: clamp(65px,6.5vw,145px);
+        height: 100%;
+    }
+    .ButtonsContainer{
+        height: clamp(169px,45vw,365px);
+        width: clamp(300px,80vw,800px);
+     
+    }
+}
 /*Manga Stlying*/
 .MangaHeader{
     margin-left: 4vw;
